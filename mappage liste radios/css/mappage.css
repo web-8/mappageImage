@@ -1,0 +1,19 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.listradios{
+    margin-left:  1px;
+    width: 50%;
+    text-align: center;
+}
+
+body{
+    background-image: url(https://blog.electronicexpress.com/wp-content/uploads/2019/08/adobestock_167893515.jpeg);
+    background-size: 100%;
+}
+
+img{
+    opacity: 55%;
+}

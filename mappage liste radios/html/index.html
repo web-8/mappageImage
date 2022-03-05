@@ -1,0 +1,127 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link href="../css/mappage.css" rel="stylesheet" type="text/css"/>
+        <script src="../java script/mappage.js">mappage.js</script>
+        <title>Mappage</title>
+        <link rel="icon" href="../images/logo.png"/> 
+    </head>
+
+    <body>
+        
+        <div class="listradios">
+            <h1>Mappage Radios 😃</h1>
+            <p id="affichage"></p>
+            <audio id="lecteur" controls>Piste audio</audio>
+            <img usemap="#listradios_map" src="../images/ListeRadios.JPG" alt="listradios">
+            <map name="listradios_map">
+
+                <area 
+                shape="rect" 
+                coords="15,12,151,147" 
+                target="_blank" 
+                alt="RTL" 
+                onclick="selectStation(this)" 
+                title="Ecouter RTL"/>
+
+                <area 
+                shape="rect" 
+                coords="187,7,338,161" 
+                target="_blank" 
+                alt="Europe1"
+                onclick="selectStation(this)"  
+                title="Ecouter Europe1"/>
+
+                <area 
+                shape="rect" 
+                coords="380,19,502,143" 
+                target="_blank" 
+                alt="RMC" 
+                onclick="selectStation(this)" 
+                title="Ecouter RMC"/>
+
+                <area 
+                shape="rect" 
+                coords="210,211,321,325"  
+                target="_blank" 
+                alt="FranceInter" 
+                onclick="selectStation(this)" 
+                title="Ecouter FranceInter"/>
+
+                <area 
+                shape="rect" 
+                coords="390,203,494,316"  
+                target="_blank" 
+                alt="SudRadio" 
+                onclick="selectStation(this)" 
+                title="Ecouter SudRadio"/>
+
+                <area 
+                shape="rect" 
+                coords="28,388,145,498"  
+                target="_blank" 
+                alt="Nova" 
+                onclick="selectStation(this)" 
+                title="Ecouter Nova"/>
+
+                <area 
+                shape="rect" 
+                coords="207,386,327,500"  
+                target="_blank" 
+                alt="OuiFM" 
+                onclick="selectStation(this)" 
+                title="Ecouter OuiFM"/>
+                
+                <area 
+                shape="rect" 
+                coords="394,390,508,507"  
+                target="_blank" 
+                alt="Fip" 
+                onclick="selectStation(this)" 
+                title="Ecouter Fip"/>
+                
+                <area 
+                shape="rect" 
+                coords="35,573,142,664"  
+                target="_blank" 
+                alt="Nostalgie" 
+                onclick="selectStation(this)" 
+                title="Ecouter Nostalgie"/>
+
+                <area 
+                shape="rect" 
+                coords="205,558,331,674" 
+                target="_blank" 
+                alt="RTL2" 
+                onclick="selectStation(this)" 
+                title="Ecouter RTL2"/>
+
+                <area 
+                shape="rect" 
+                coords="390,566,499,673"  
+                target="_blank" 
+                alt="CherieFM" 
+                onclick="selectStation(this)" 
+                title="Ecouter CherieFM"/>
+
+                <area 
+                shape="rect" 
+                coords="37,752,138,842"  
+                target="_blank" 
+                alt="RiresEtChansons" 
+                onclick="selectStation(this)" 
+                title="Ecouter RiresEtChansons"/>
+                
+                <area 
+                shape="rect" 
+                coords="29,209,150,322" 
+                target="_blank" 
+                alt="Africa" 
+                onclick="selectStation(this)" 
+                title="Ecouter Africa"/>
+            </map>
+        </div>
+    </body>
+</html>
